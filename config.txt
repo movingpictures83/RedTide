@@ -1,0 +1,53 @@
+Prefix pipelines/RedTide/
+Kitty BM10_S95/CSV
+Pipeline pipelines/RedTide/config.normalize.txt
+Kitty BM11_S96/CSV
+Pipeline pipelines/RedTide/config.normalize.txt
+Kitty BM12_S97/CSV
+Pipeline pipelines/RedTide/config.normalize.txt
+Kitty BM13_S98/CSV
+Pipeline pipelines/RedTide/config.normalize.txt
+Kitty BM14_S99/CSV
+Pipeline pipelines/RedTide/config.normalize.txt
+Kitty BM15_S100/CSV
+Pipeline pipelines/RedTide/config.normalize.txt
+Kitty BM40_S118/CSV
+Pipeline pipelines/RedTide/config.normalize.txt
+Kitty BM41_S119/CSV
+Pipeline pipelines/RedTide/config.normalize.txt
+Kitty BM42_S120/CSV
+Pipeline pipelines/RedTide/config.normalize.txt
+Kitty BM43_S121/CSV
+Pipeline pipelines/RedTide/config.normalize.txt
+Kitty BM44_S122/CSV
+Pipeline pipelines/RedTide/config.normalize.txt
+Kitty BM45_S123/CSV
+Pipeline pipelines/RedTide/config.normalize.txt
+
+Kitty Phylum
+Pipeline pipelines/RedTide/config.merge.txt
+Kitty Class
+Pipeline pipelines/RedTide/config.merge.txt
+Kitty Order
+Pipeline pipelines/RedTide/config.merge.txt
+Kitty Family
+Pipeline pipelines/RedTide/config.merge.txt
+Kitty Genus
+Pipeline pipelines/RedTide/config.merge.txt
+Kitty Species
+Pipeline pipelines/RedTide/config.merge.txt
+Kitty Strain
+Pipeline pipelines/RedTide/config.merge.txt
+Kitty .
+Pipeline pipelines/RedTide/config.alpha.txt
+Plugin PlotBetaDiversity3D inputfile parameters.plot.betadiversity.txt outputfile Beta
+Plugin BetaDiversity inputfile parameters.betadiversity.txt outputfile BetaDiversityStats
+Plugin TSV2CSV inputfile BetaDiversityStats/weighted_unifrac_mystuff2.txt outputfile BetaDiversityStats/weighted_unifrac_mystuff2.csv
+Plugin CSVUpperTriangular inputfile BetaDiversityStats/weighted_unifrac_mystuff2.csv outputfile BetaDiversityStats/weighted_unifrac_mystuff2.upperTriangular.csv
+Plugin CSVQuote inputfile BetaDiversityStats/weighted_unifrac_mystuff2.upperTriangular.csv outputfile BetaDiversityStats/weighted_unifrac_mystuff2.upperTriangular.quoted.csv
+Plugin InAndOut inputfile parameters.inandout.txt outputfile BetaDiversityStats/weighted_unifrac_mystuff2.inandout.csv
+Plugin PhyloSeqNormalize inputfile PHYLOSEQ/tax_tab.csv outputfile PHYLOSEQ/tax_tab.norm.csv
+Plugin PhyloSeqNormalize inputfile PHYLOSEQ/SINGLETON/tax_tab.csv outputfile PHYLOSEQ/SINGLETON/tax_tab.norm.csv
+Plugin PhyloSeq2LEfSe inputfile parameters.phyloseq2lefse.txt outputfile PHYLOSEQ/otus.lefse.txt
+Plugin LEfSe inputfile parameters.lefse.txt outputfile output.lefse
+Plugin tSNE inputfile parameters.tsne.txt outputfile output.tsne.png
