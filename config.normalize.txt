@@ -1,0 +1,7 @@
+Plugin CSVNormalize inputfile abund.phylum.csv outputfile abund.phylum.norm.csv
+Plugin CSVNormalize inputfile abund.class.csv outputfile abund.class.norm.csv
+Plugin CSVNormalize inputfile abund.order.csv outputfile abund.order.norm.csv
+Plugin CSVNormalize inputfile abund.family.csv outputfile abund.family.norm.csv
+Plugin CSVNormalize inputfile abund.genus.csv outputfile abund.genus.norm.csv
+Plugin CSVNormalize inputfile abund.species.csv outputfile abund.species.norm.csv
+Plugin CSVNormalize inputfile abund.strain.csv outputfile abund.strain.norm.csv
