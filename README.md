@@ -1,2 +1,2 @@
-# Resistome
-Resistome Whole Genome Sequencing (WGS)
+# RedTide
+RedTide, resistome Whole Genome Sequencing (WGS)
