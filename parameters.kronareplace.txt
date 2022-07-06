@@ -1,0 +1,2 @@
+kronafile	KRAKEN/final_pure_reads.nogroups.noviruses.fixspecies.krona
+mapfile	../unclass_map.txt

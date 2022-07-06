@@ -1,0 +1,3 @@
+KRAKEN/final_assembly.krona
+KRAKEN/final_pure_reads.krona
+

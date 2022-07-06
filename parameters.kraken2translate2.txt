@@ -1,0 +1,2 @@
+database	/biorg/data/DB/KRAKEN2/Bacteria
+kraken	KRAKEN/final_pure_reads.krak2

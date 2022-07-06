@@ -1,0 +1,2 @@
+bmtaggerfile	CLEAN_READS/sample.bmtagger.list
+sequences	CLEAN_READS/R2_val_2.fq
