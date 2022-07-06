@@ -1,0 +1,6 @@
+biomfile	pipelines/Resistome/mystuff2.biom
+tree	pipelines/Resistome/mystuff.tre
+observed_species
+chao1
+shannon
+PD_whole_tree

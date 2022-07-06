@@ -1,0 +1,6 @@
+../BM13_S98/CSV/abund.species.csv
+../BM14_S99/CSV/abund.species.csv
+../BM15_S100/CSV/abund.species.csv
+../BM43_S121/CSV/abund.species.csv
+../BM44_S122/CSV/abund.species.csv
+../BM45_S123/CSV/abund.species.csv

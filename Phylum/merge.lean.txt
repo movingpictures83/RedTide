@@ -1,0 +1,6 @@
+../BM10_S95/CSV/abund.phylum.csv
+../BM11_S96/CSV/abund.phylum.csv
+../BM12_S97/CSV/abund.phylum.csv
+../BM40_S118/CSV/abund.phylum.csv
+../BM41_S119/CSV/abund.phylum.csv
+../BM42_S120/CSV/abund.phylum.csv

@@ -1,0 +1,6 @@
+../BM10_S95/CSV/abund.family.csv
+../BM11_S96/CSV/abund.family.csv
+../BM12_S97/CSV/abund.family.csv
+../BM40_S118/CSV/abund.family.csv
+../BM41_S119/CSV/abund.family.csv
+../BM42_S120/CSV/abund.family.csv

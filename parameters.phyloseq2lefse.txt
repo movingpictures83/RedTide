@@ -1,0 +1,5 @@
+OTU	PHYLOSEQ/FILTERED/tax_tab.norm.csv
+TAX	PHYLOSEQ/FILTERED/tax_tree.csv
+META	MetadataFIU.csv
+LEVEL	8
+DESC	Group

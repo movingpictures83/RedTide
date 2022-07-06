@@ -1,0 +1,7 @@
+inputfile	PHYLOSEQ/otus.lefse.txt
+class	2
+subclass	-1
+subject	1
+outputdir	Biomarkers/
+biomarkerfigures	yes
+lda_abs_th	2.0

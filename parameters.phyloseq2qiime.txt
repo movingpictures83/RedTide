@@ -1,0 +1,3 @@
+OTU	PHYLOSEQ/tax_tab.csv
+TAX	PHYLOSEQ/tax_tree.csv
+META	MetadataFIU.csv

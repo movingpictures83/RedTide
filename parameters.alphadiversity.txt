@@ -1,0 +1,4 @@
+biomfile	mystuff2.biom
+mapping	MetadataFIU.txt
+depth	150000
+tree	mystuff.tre

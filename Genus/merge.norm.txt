@@ -1,0 +1,12 @@
+../BM10_S95/CSV/abund.genus.norm.csv
+../BM11_S96/CSV/abund.genus.norm.csv
+../BM12_S97/CSV/abund.genus.norm.csv
+../BM13_S98/CSV/abund.genus.norm.csv
+../BM14_S99/CSV/abund.genus.norm.csv
+../BM15_S100/CSV/abund.genus.norm.csv
+../BM40_S118/CSV/abund.genus.norm.csv
+../BM41_S119/CSV/abund.genus.norm.csv
+../BM42_S120/CSV/abund.genus.norm.csv
+../BM43_S121/CSV/abund.genus.norm.csv
+../BM44_S122/CSV/abund.genus.norm.csv
+../BM45_S123/CSV/abund.genus.norm.csv
