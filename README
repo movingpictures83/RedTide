@@ -1,0 +1,5 @@
+Notes:
+
+Need the KRAKEN Mouse and Bacterial databases.
+Pipeline assumes that Mouse.fa is installed in BMTAGGER_INDEX (pipeline will compute an index)
+Also assumes the FASTQ files are in their respective subfolders (BM10*, BM11*, etc.).  These are publicly available at the location in the paper.

@@ -1,0 +1,2 @@
+fastafile	BMTAGGER_INDEX/Mouse.fa
+wordsize	12

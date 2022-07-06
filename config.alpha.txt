@@ -1,0 +1,4 @@
+#Plugin PhyloSeq2Qiime inputfile parameters.phyloseq2qiime.txt outputfile mystuff
+#Plugin BIOM2Upgrade inputfile mystuff.biom outputfile mystuff2.biom
+#Plugin PlotAlphaDiversity inputfile parameters.alphadiversity.txt outputfile Alpha
+Plugin AlphaDiversity inputfile parameters.alphadiversity.shannon.txt outputfile AlphaShannon

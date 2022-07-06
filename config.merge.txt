@@ -1,0 +1,15 @@
+#Plugin CSVMerge inputfile merge.txt outputfile abund.csv
+#Plugin CSVMerge inputfile merge.norm.txt outputfile abund.norm.csv
+#Plugin CSVMerge inputfile merge.lean.txt outputfile Lean/abund.csv
+#Plugin CSVMerge inputfile merge.leanmc.txt outputfile LeanMC/abund.csv
+
+Plugin Copy inputfile ../gene_expression.lean.csv outputfile Lean/gene_expression.csv
+Plugin Copy inputfile ../gene_expression.leanmc.csv outputfile LeanMC/gene_expression.csv
+Kitty Lean
+Pipeline pipelines/RedTide/config.networks.strongfilter.txt
+Kitty LeanMC
+Pipeline pipelines/RedTide/config.networks.strongfilter.txt
+
+#Plugin CSVMerge inputfile ../merge.afterfilter.txt outputfile abund.norm.afterfilter.csv
+#Pipeline pipelines/RedTide/config.networks.txt
+#Pipeline pipelines/RedTide/config.networks.txt

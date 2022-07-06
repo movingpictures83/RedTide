@@ -1,0 +1,2 @@
+Plugin Copy inputfile ../gene_expression.lean.csv outputfile Lean/gene_expression.csv
+Plugin Copy inputfile ../gene_expression.leanmc.csv outputfile LeanMC/gene_expression.csv

@@ -1,0 +1,14 @@
+Plugin RemoveSingletons inputfile abund.csv outputfile abund.removesingletons.csv
+Plugin RemoveZero inputfile abund.removesingletons.csv outputfile abund.removesingletons.removezero.csv
+Plugin CSVNormalize inputfile abund.removesingletons.removezero.csv outputfile abund.removesingletons.removezero.norm.csv
+Plugin CSVFilter inputfile ../../parameters.filter.txt outputfile abund.filtered.norm.csv
+Plugin Abundance inputfile abund.filtered.norm.csv outputfile abund.filtered.norm.noa
+Plugin CSVTranspose inputfile abund.filtered.norm.csv outputfile abund.filtered.norm.transpose.csv
+Plugin CSV2TSV inputfile abund.filtered.norm.transpose.csv outputfile abund.filtered.norm.transpose.tsv
+Plugin TSVPerturb inputfile abund.filtered.norm.transpose.tsv outputfile abund.filtered.norm.transpose.perturb.tsv
+Plugin SparCC inputfile abund.filtered.norm.transpose.perturb.tsv outputfile abund.sparcc.unquoted.csv
+Plugin CSVQuote inputfile abund.sparcc.unquoted.csv outputfile abund.sparcc.csv
+Plugin CSV2GML inputfile abund.sparcc.csv outputfile abund.sparcc.gml
+Plugin GPUATria inputfile abund.sparcc.csv outputfile abund.sparcc.atria.noa
+Plugin AffinityPropagation inputfile abund.sparcc.csv outputfile abund.sparcc
+Plugin ClusterCSV2NOA inputfile abund.sparcc.AP.csv outputfile abund.sparcc.AP.noa
